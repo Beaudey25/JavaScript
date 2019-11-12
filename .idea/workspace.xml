@@ -1,0 +1,105 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="ff0b40d9-d9bc-436f-a6a6-6686b6bbdc47" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/H01/op1.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/H01/op1.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/H02/op2.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/H02/op2.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/h03/op3.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/h03/op3.js" afterDir="false" />
+    </list>
+    <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="ComposerSettings">
+    <execution>
+      <executable />
+    </execution>
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="HTML File" />
+        <option value="JavaScript File" />
+      </list>
+    </option>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="ProjectId" id="1TVZtQ5HsaCaOpIwdP5F3bq1yMK" />
+  <component name="ProjectLevelVcsManager">
+    <ConfirmationsSetting value="2" id="Add" />
+  </component>
+  <component name="PropertiesComponent">
+    <property name="DefaultHtmlFileTemplate" value="HTML File" />
+    <property name="WebServerToolWindowFactoryState" value="false" />
+  </component>
+  <component name="RecentsManager">
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="C:\Program Files (x86)\School\PhPStorm\JavaScript\H01" />
+    </key>
+  </component>
+  <component name="RunDashboard">
+    <option name="ruleStates">
+      <list>
+        <RuleState>
+          <option name="name" value="ConfigurationTypeDashboardGroupingRule" />
+        </RuleState>
+        <RuleState>
+          <option name="name" value="StatusDashboardGroupingRule" />
+        </RuleState>
+      </list>
+    </option>
+  </component>
+  <component name="RunManager" selected="JavaScript Debug.op3.html">
+    <configuration name="op2.html" type="JavascriptDebugType" temporary="true" nameIsGenerated="true" uri="http://localhost:63342/JavaScript/H02/op2.html" useBuiltInWebServerPort="true">
+      <method v="2" />
+    </configuration>
+    <configuration name="op3.html" type="JavascriptDebugType" temporary="true" nameIsGenerated="true" uri="http://localhost:63342/JavaScript/h03/op3.html" useBuiltInWebServerPort="true">
+      <method v="2" />
+    </configuration>
+    <configuration name="op2.js" type="NodeJSConfigurationType" temporary="true" nameIsGenerated="true" path-to-js-file="$PROJECT_DIR$/H02/op2.js" working-dir="$PROJECT_DIR$/H02">
+      <method v="2" />
+    </configuration>
+    <recent_temporary>
+      <list>
+        <item itemvalue="JavaScript Debug.op3.html" />
+        <item itemvalue="JavaScript Debug.op2.html" />
+        <item itemvalue="Node.js.op2.js" />
+      </list>
+    </recent_temporary>
+  </component>
+  <component name="SvnConfiguration">
+    <configuration />
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="ff0b40d9-d9bc-436f-a6a6-6686b6bbdc47" name="Default Changelist" comment="" />
+      <created>1573547438002</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1573547438002</updated>
+      <workItem from="1573547440226" duration="2657000" />
+    </task>
+    <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="1" />
+  </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State />
+          </value>
+        </entry>
+      </map>
+    </option>
+  </component>
+</project>
