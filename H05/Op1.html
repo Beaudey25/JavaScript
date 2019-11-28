@@ -1,0 +1,91 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>CHooser</title>
+
+    <style>
+        body{
+            font-family: 'Copse', serif;
+            text-align: center;
+            background: teal;
+        }
+        div.dierpicture{
+            box-sizing: border-box;
+            height: 450px;
+            width: 300px;
+            float: left;
+            border: solid 2px black;
+        }
+        div.favoriet {
+            width: 300px;
+            height: 150px;
+            background-color: aqua;
+            background-image: none;
+            background-repeat: no-repeat;
+            background-position: center;
+        }
+        #pics{
+            height: 900px;
+            width: 900px;
+            margin: auto;
+            border: black 1px solid;
+            font-size: 0px;
+        }
+    </style>
+
+</head>
+<body>
+<h1>Dierchooser</h1>
+<h3>Choose your favorite animal!</h3>
+<div id="pics">
+
+     </div>
+
+<script>
+pics = document.getElementById("pics");
+createPicsHolders();
+createdierImage();
+
+
+    function createPicsHolders() {
+        for (var i = 0; i < 9; i++) {
+            pictureHodler = document.createElement("div");
+            pictureHodler.className = "dierpicture";
+            pictureHodler.id = "picture-holder-" +i;
+            pics.appendChild(pictureHodler);
+
+        }
+    }
+     function createdierImage() {
+         pictureHodler = document.getElementsByClassName("dierpicture");
+         for (var i = 0; i < pictureHodler.length ; i++) {
+             favoriet = document.createElement("div");
+             favoriet.className="favoriet";
+             favoriet.id = "favoriet" + (i+1);
+             dierplaatje = document.createElement("img");
+             dierplaatje.src = "img/dier" + (i+1) + ".jpg";
+             dierplaatje.id= (i+1);
+             dierplaatje.addEventListener("click", function () {
+                     maakfavoriet(this.id);
+                 });
+             pictureHodler[i].appendChild(favoriet);
+             pictureHodler[i].appendChild(dierplaatje);
+
+         }
+     }
+
+     function maakfavoriet(id) {
+        notsofavoriet = document.getElementsByClassName("favoriet");
+         for (var i = 0; i < notsofavoriet.length; i++) {
+             notsofavoriet[i].style.backgroundImage = "none";
+         }
+        
+         favoriet = document.getElementById("favoriet" +id);
+         favoriet.style.backgroundImage = "url('img/hart.png')";
+     }
+
+
+</script>
+</body>
+</html>
